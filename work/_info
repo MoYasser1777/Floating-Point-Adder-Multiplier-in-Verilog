@@ -1,0 +1,488 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/lenovo/Desktop/Third Year/Arch/Project/5-Stage-Pipelined-Processor/Phase1/2. Decode
+vcarrySelectAdder
+Z0 !s110 1702501632
+!i10b 1
+!s100 <1c95YI^4OkhbaKA=[3U82
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@H2iGhJ0X::lYVFSnS0EL1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/lenovo/Desktop/floatingPoint
+Z4 w1702501626
+Z5 8C:\Users\lenovo\Desktop\floatingPoint\fpAdder.v
+Z6 FC:\Users\lenovo\Desktop\floatingPoint\fpAdder.v
+!i122 36
+L0 90 35
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1702501631.000000
+Z9 !s107 C:\Users\lenovo\Desktop\floatingPoint\fpAdder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\lenovo\Desktop\floatingPoint\fpAdder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+ncarry@select@adder
+vfpAdder
+!s110 1703798488
+!i10b 1
+!s100 ^jK5gPW@Qk^m`gkMAdnBL0
+R1
+IaZ=^[E5E];6nn6WFPQkST2
+R2
+R3
+w1702569369
+Z13 8C:/Users/lenovo/Desktop/floatingPoint/fpAdder.v
+Z14 FC:/Users/lenovo/Desktop/floatingPoint/fpAdder.v
+!i122 198
+L0 1 59
+R7
+r1
+!s85 0
+31
+!s108 1703798487.000000
+Z15 !s107 C:/Users/lenovo/Desktop/floatingPoint/fpAdder.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lenovo/Desktop/floatingPoint/fpAdder.v|
+!i113 1
+R11
+R12
+nfp@adder
+vfpAdder_tb
+!s110 1703803464
+!i10b 1
+!s100 nIPflKbZ;UL;U[[U_A@BK0
+R1
+Ii]VMbP7_9O57V]01DS3EO2
+R2
+R3
+w1703802450
+8C:/Users/lenovo/Desktop/floatingPoint/fpAdder_tb.v
+FC:/Users/lenovo/Desktop/floatingPoint/fpAdder_tb.v
+!i122 217
+L0 2 129
+R7
+r1
+!s85 0
+31
+Z17 !s108 1703803464.000000
+!s107 C:/Users/lenovo/Desktop/floatingPoint/fpAdder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lenovo/Desktop/floatingPoint/fpAdder_tb.v|
+!i113 1
+R11
+R12
+nfp@adder_tb
+vFPM
+Z18 !s110 1703198416
+!i10b 1
+!s100 IKFF4LY:IVC9Ti?V6aK_h3
+R1
+I]Hz854czo]Rjk8b^7;AS@1
+R2
+R3
+Z19 w1703198402
+Z20 8C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier.v
+Z21 FC:/Users/lenovo/Desktop/floatingPoint/fpMultiplier.v
+!i122 64
+L0 1 33
+R7
+r1
+!s85 0
+31
+Z22 !s108 1703198416.000000
+Z23 !s107 C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier.v|
+!i113 1
+R11
+R12
+n@f@p@m
+vfpMultiplier
+Z25 !s110 1703794182
+!i10b 1
+!s100 fVoXMhR8MB]a>T>imOgCX2
+R1
+In_^MOZDUHUJ2AaWWU]E_^3
+R2
+R3
+Z26 w1703451886
+R20
+R21
+!i122 124
+L0 1 27
+R7
+r1
+!s85 0
+31
+Z27 !s108 1703794182.000000
+R23
+R24
+!i113 1
+R11
+R12
+nfp@multiplier
+vfpMultiplier_DW01_add_0
+Z28 !s110 1703367824
+!i10b 1
+!s100 z;CibKnE7HYa8E4z30W<f1
+R1
+I4ZTIaD:J=nO5o0W5WAn0N0
+R2
+R3
+Z29 w1703365501
+Z30 8C:/Users/lenovo/Desktop/floatingPoint/synth_fpMultiplier.v
+Z31 FC:/Users/lenovo/Desktop/floatingPoint/synth_fpMultiplier.v
+!i122 99
+L0 86 24
+R7
+r1
+!s85 0
+31
+Z32 !s108 1703367824.000000
+Z33 !s107 C:/Users/lenovo/Desktop/floatingPoint/synth_fpMultiplier.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lenovo/Desktop/floatingPoint/synth_fpMultiplier.v|
+!i113 1
+R11
+R12
+nfp@multiplier_@d@w01_add_0
+vfpMultiplier_DW01_add_1
+R28
+!i10b 1
+!s100 G2aPVKh:H_i?oe4RgK4I[0
+R1
+I4:Lok97OH0Se3:IkRO^L]3
+R2
+R3
+R29
+R30
+R31
+!i122 99
+L0 112 147
+R7
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R11
+R12
+nfp@multiplier_@d@w01_add_1
+vfpMultiplier_DW02_mult_0
+R28
+!i10b 1
+!s100 O_JneZILbgXk3Y34c;<hd2
+R1
+IjUe]>NTP1QfmDM>JB9Oa;2
+R2
+R3
+R29
+R30
+R31
+!i122 99
+L0 261 2009
+R7
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R11
+R12
+nfp@multiplier_@d@w02_mult_0
+vfpMultiplier_tb
+Z35 !s110 1703803465
+!i10b 1
+!s100 VLBTE;1;4J<jaV3>6aBaM2
+R1
+IgVXXVSPQadBQhc<iSQm2W1
+R2
+R3
+w1703798428
+Z36 8C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier_tb.v
+Z37 FC:/Users/lenovo/Desktop/floatingPoint/fpMultiplier_tb.v
+!i122 219
+L0 1 147
+R7
+r1
+!s85 0
+31
+!s108 1703803465.000000
+Z38 !s107 C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier_tb.v|
+Z39 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier_tb.v|
+!i113 1
+R11
+R12
+nfp@multiplier_tb
+vfullAdder
+R0
+!i10b 1
+!s100 PC]SzTB=8l?Vo?a>7D=3T1
+R1
+IfT:]kO_n1T_VHg9@UXiL90
+R2
+R3
+R4
+R5
+R6
+!i122 36
+L0 147 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nfull@adder
+vfullAdder16
+R0
+!i10b 1
+!s100 UMOT0R95^zV[IFT0Gg]n;0
+R1
+I>;6mI>oD;884l56Cc;NTh2
+R2
+R3
+R4
+R5
+R6
+!i122 36
+L0 126 20
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nfull@adder16
+vgenericRegister
+R25
+!i10b 1
+!s100 V@lmHP;fzmUoQFRN5coZ?1
+R1
+IK0Ko>e_RJDlF48>K:h`Rj0
+R2
+R3
+R26
+R20
+R21
+!i122 124
+L0 29 13
+R7
+r1
+!s85 0
+31
+R27
+R23
+R24
+!i113 1
+R11
+R12
+ngeneric@register
+vIEEE754Adder
+!s110 1702394013
+!i10b 1
+!s100 ZC1jNT9SVGATCl7edFe_52
+R1
+IEmDP7>n8WY0B?G?5WHkgg2
+R2
+R3
+w1702393961
+R13
+R14
+!i122 0
+L0 1 65
+R7
+r1
+!s85 0
+31
+!s108 1702394013.000000
+R15
+R16
+!i113 1
+R11
+R12
+n@i@e@e@e754@adder
+vregistered_FPM
+R18
+!i10b 1
+!s100 RM[UzVm?dZRRGL0c43ZQI2
+R1
+Ioe;=l92BZSB8`lZWh7kek1
+R2
+R3
+R19
+R20
+R21
+!i122 64
+L0 49 20
+R7
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R11
+R12
+nregistered_@f@p@m
+vregisteredFPA
+!s110 1703802461
+!i10b 1
+!s100 9`JcI<90JQQQ61Cm;9Q>f1
+R1
+I?nmn?j5SH>j0MPFBD57Jk1
+R2
+R3
+w1703800521
+R13
+R14
+!i122 213
+L0 1 89
+R7
+r1
+!s85 0
+31
+!s108 1703802460.000000
+R15
+R16
+!i113 1
+R11
+R12
+nregistered@f@p@a
+vregisteredFPM
+R25
+!i10b 1
+!s100 bOVbVU8SU69P[0zP[6WU50
+R1
+IEedDIOBdd=ON>2^;QIC@]3
+R2
+R3
+R26
+R20
+R21
+!i122 124
+L0 43 15
+R7
+r1
+!s85 0
+31
+R27
+R23
+R24
+!i113 1
+R11
+R12
+nregistered@f@p@m
+vsingleModuleFPM
+R35
+!i10b 1
+!s100 ;BYPG46HcRBcU4^jKLMi30
+R1
+IK=XX9AADM9f_noD7GWHAG3
+R2
+R3
+w1703798475
+R20
+R21
+!i122 218
+L0 1 48
+R7
+r1
+!s85 0
+31
+R17
+R23
+R24
+!i113 1
+R11
+R12
+nsingle@module@f@p@m
+vtest
+!s110 1703183049
+!i10b 1
+!s100 HNS0V8bAUOfa0jnSTDDBV1
+R1
+IK]_C@bBgRNCoi@<1bNe6?1
+R2
+R3
+w1703177298
+8FPM.v
+FFPM.v
+!i122 53
+L0 1 53
+R7
+r1
+!s85 0
+31
+!s108 1703183049.000000
+!s107 registered_FPM.v|FPM.v|
+!s90 -reportprogress|300|FPM.v|registered_FPM.v|
+!i113 1
+R12
+vtest_bench_shift_accumulate_multiplier
+!s110 1703243785
+!i10b 1
+!s100 bHH3M2@?ZGbEI>5Db3@Qe1
+R1
+I7n443G6j3<RPeH==3G6C<2
+R2
+R3
+w1703243777
+R36
+R37
+!i122 84
+L0 1 136
+R7
+r1
+!s85 0
+31
+!s108 1703243785.000000
+R38
+R39
+!i113 1
+R11
+R12
+vtreeMultiplier
+!s110 1703448479
+!i10b 1
+!s100 E9dnRXPET3:X>idWV_:KN0
+R1
+IFO0>6>_d1AhTj1KoWeTl[2
+R2
+R3
+w1703448469
+R20
+R21
+!i122 121
+L0 1 118
+R7
+r1
+!s85 0
+31
+!s108 1703448479.000000
+R23
+R24
+!i113 1
+R11
+R12
+ntree@multiplier

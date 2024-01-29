@@ -1,0 +1,70 @@
+module fpAdder(
+  input [31:0] A,
+  input [31:0] B,
+  output reg [31:0] Sum,
+  output reg overFlow
+);
+  reg [24:0] MA,MB, MR;
+  reg [7:0] ER;
+  reg SR;
+  reg IBA, IBB;
+  integer MSB,i;
+
+  wire [7:0] out1, out2, out3, out4, out5, out6, out7, out8;
+  wire  cout1 cout2, cout3, cout4, cout5, cout6, cout7, cout8;
+  wire  overflow1, overflow2, overflow3, overflow4, overflow5, overflow6, overflow7, overflow8;
+
+carrySelectAdder dut(.A(A[30:23]), .B(~(B[30:23])), .Cin(1), .S(out1),.Cout(cout1), .overFlow(overflow1));
+carrySelectAdder dut(.A(B[30:23]), .B(~(A[30:23])), .Cin(1), .S(out2),.Cout(cout2), .overFlow(overflow2));
+carrySelectAdder dut(.A(MA), .B((MB)), .Cin(0), .S(out3),.Cout(cout3), .overFlow(overflow3));
+carrySelectAdder dut(.A(ER), .B((1)), .Cin(0), .S(out4),.Cout(cout4), .overFlow(overflow4));
+carrySelectAdder dut(.A(MA), .B(~(MB)), .Cin(1), .S(out5),.Cout(cout5), .overFlow(overflow5));
+carrySelectAdder dut(.A(MB), .B(~(MA)), .Cin(1), .S(out6),.Cout(cout6), .overFlow(overflow6));
+carrySelectAdder dut(.A(23), .B(~(MSB)), .Cin(1), .S(out7),.Cout(cout7), .overFlow(overflow7));
+carrySelectAdder dut(.A(ER), .B(~(out7)), .Cin(1), .S(out8),.Cout(cout8), .overFlow(overflow8));
+  always @* begin
+    overFlow=0;
+    IBA = (A[30:23] == 8'b00000000) ? 1'b0 : 1'b1;
+    IBB = (B[30:23] == 8'b00000000) ? 1'b0 : 1'b1;
+    MB = {IBB, B[22:0]};
+    MA = {IBA, A[22:0]};
+     if (A[30:23] > B[30:23]) begin
+      MB = MB >> (out1);
+      ER = A[30:23];
+    end else begin
+      MA = MA >> (out2);
+      ER = B[30:23];
+    end
+    if (A[31] == B[31]) begin
+      MR = out3;
+      SR = A[31];
+      if (MR[24]) begin
+        MR = MR >> 1;
+        ER = out4;
+      end
+    end 
+    else begin
+        if (MA>=MB) begin
+            MR = out5;
+        end
+        else begin
+            MR = out6;
+        end
+      SR = (MA >= MB) ? A[31] : B[31];
+      for (i=0; i<24; i=i+1) begin
+        if (MR[i]==1) begin
+            MSB=i;
+        end
+      end
+      MR = MR << (out7);
+      ER = out8;
+    end
+
+    if (ER == 8'b11111111) begin
+        overFlow=1;
+        MR[22:0]=0;
+    end
+    Sum = {SR, ER, MR[22:0]};
+  end
+
+endmodule

@@ -1,0 +1,24 @@
+C:/Users/lenovo/Desktop/floatingPoint/fpAdder_tb.v {1 {vlog -work work -stats=none C:/Users/lenovo/Desktop/floatingPoint/fpAdder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fpAdder_tb
+
+Top level modules:
+	fpAdder_tb
+
+} {} {}} C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier.v {1 {vlog -work work -stats=none C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module singleModuleFPM
+
+Top level modules:
+	singleModuleFPM
+
+} {} {}} C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier_tb.v {1 {vlog -work work -stats=none C:/Users/lenovo/Desktop/floatingPoint/fpMultiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fpMultiplier_tb
+
+Top level modules:
+	fpMultiplier_tb
+
+} {} {}} C:/Users/lenovo/Desktop/floatingPoint/fpAdder.v {1 {vlog -work work -stats=none C:/Users/lenovo/Desktop/floatingPoint/fpAdder.v
+
+} {} {}}
